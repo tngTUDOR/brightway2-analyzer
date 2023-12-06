@@ -1,4 +1,7 @@
+"""bw2analyzer."""
+
 __all__ = [
+    "__version__",
     "compare_activities_by_grouped_leaves",
     "compare_activities_by_lcia_score",
     "ContributionAnalysis",
@@ -26,3 +29,5 @@ from .sc_graph import GTManipulator
 from .tagged import traverse_tagged_databases
 from .utils import print_recursive_calculation, print_recursive_supply_chain
 from .version import version as __version__
+
+__version__ = "0.12.0"
