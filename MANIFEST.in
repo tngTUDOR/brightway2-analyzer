@@ -1,5 +1,0 @@
-include *.txt
-include *.md
-include README.rst
-include bw2analyzer/tests/*.py
-include bw2analyzer/*.py
