@@ -29,8 +29,19 @@ classifiers = [
 ]
 requires-python = ">=3.9"
 dependencies = [
-    # dependencies as strings with quotes, e.g. "foo"
-    # You can add version requirements like "foo>2.0"
+	"bw2calc",
+	"bw2data",
+	"lxml",
+	"matplotlib",
+	"numpy",
+	"pandas",
+	"requests",
+	"scipy",
+	"stats_arrays",
+	"tabulate",
+	"tqdm",
+	"unicodecsv",
+	"voluptuous",
 ]
 
 [project.urls]
